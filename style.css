@@ -37,7 +37,7 @@ body{
 }
 
 .left{
-    width: 450px;
+    width: 500px;
 }
 
 .ttltxt, .img{
@@ -58,10 +58,85 @@ body{
     margin-top: 10px;
     background-color: #3882F6;
     min-height: 35px;
-    width: 125px;
+    min-width: 125px;
     border-radius: 8px;
-    color: #F9FAF8;
+    color: white;
     font-weight: 800;
+}
+
+.secon{
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    padding-bottom: 120px;
+}
+
+.infotitle{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 48px;
+}
+
+.seconimg{
+    display: flex;
+}
+
+.imgntext{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.square{
+    border: solid #3882F6;
+    border-width: 4px;
+    border-radius: 16px;
+    width: 165px;
+    height: 170px;
+    margin-bottom: 8px;
+}
+.txt2{
+    width: 180px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.quotetxt{
+    width: 790px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotetxttxt{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.cred{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-right: 32px;
 }
 
 ul{
