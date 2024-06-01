@@ -104,6 +104,8 @@ body{
     width: 165px;
     height: 170px;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
 }
 .txt2{
     width: 180px;
